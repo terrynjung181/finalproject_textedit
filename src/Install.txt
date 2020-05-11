@@ -1,0 +1,22 @@
+Assuming that OCaml is already installed, the following packages just be installed:
+- oUnit (https://github.com/gildor478/ounit/releases/download/v2.2.2/ounit-v2.2.2.tbz)
+- ANSITerminal (https://github.com/Chris00/ANSITerminal/releases/download/0.8.2/ANSITerminal-0.8.2.tbz)
+- str
+- unix 
+- ocamlbuild (https://github.com/ocaml/ocamlbuild/archive/0.14.0.tar.gz)
+All of these packages were used for past assignments.
+
+We have the following make commands:
+- make default
+- make build
+- make test
+- make run
+- make zip
+- make docs
+- make docs-public
+- make docs-private
+- make clean
+
+All of the following make commands compile, but most of them don't do anything special.
+make run will open ANSITerminal and ask for a file name, but once you add a file name, nothing will happen because we have not implemented that section yet.
+However, we wrote a few test cases so if you run make test you can see that all our test cases pass.
